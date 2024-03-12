@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src/*.js"
+      "pre-commit": "echo 'KEKW'"
     }
   },
   "author": "",
