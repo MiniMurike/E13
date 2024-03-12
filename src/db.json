@@ -1,0 +1,11 @@
+{
+  "posts": [
+    { "id":  1, "title": "This is a first post!", "content": "Some post content" },
+    { "id":  2, "title": "This is a second post!", "content": "Some other post content" },
+    { "id":  3, "title": "This is a third post!", "content": "Some new post content" }
+  ],
+  "users": [
+    { "id": 1, "username": "Murike" },
+    { "id": 2, "username": "qwerty123" }
+  ]
+}
