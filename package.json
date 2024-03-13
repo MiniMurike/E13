@@ -4,18 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack serve --config webpack.config.dev.js",
-    "start-prod": "webpack serve --config webpack.config.prod.js",
-    "json-server": "json-server --watch src/db.json"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'KEKW'"
-    }
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "prod": "webpack serve --config webpack.config.prod.js",
+    "json-server": "json-server --watch src/db.json",
+    "eslint": "eslint src/*.js",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
     "html-webpack-plugin": "^5.6.0",
     "husky": "^9.0.11",
     "webpack": "^5.90.3",
@@ -23,7 +22,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "eslint": "^8.57.0",
     "json-server": "^1.0.0-alpha.23"
   }
 }
